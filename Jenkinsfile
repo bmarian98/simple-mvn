@@ -8,7 +8,7 @@ stages {
   stage('Build'){
 	steps{
 	  echo 'Build maven project...'
-	  sh 'mv clean install'
+	  sh 'mvn clean install'
 	}
   }
   
